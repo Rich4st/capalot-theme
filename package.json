@@ -1,0 +1,21 @@
+{
+  "name": "capalot-theme",
+  "displayName": "capalot-theme",
+  "description": "a awesome theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "capalot",
+        "uiTheme": "vs-dark",
+        "path": "./themes/capalot-color-theme.json"
+      }
+    ]
+  }
+}
